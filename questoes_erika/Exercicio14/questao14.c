@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int maior = 0, n = 5, i = 0, idade[n], mulheres = 0, deninter = 0, olho, cabelo;
+    int maior = 0, n = 0, i = 0, idade[n], mulheres = 0, deninter = 0, olho, cabelo;
     char sexo;
     float percentual;
+    
 
-    while (i < n) {
+    while (5 > 2) {
         printf("Informe o sexo [m/f]: ");
         scanf(" %c", &sexo);
         printf("Informe a cor dos olhos [1-azuis/2-verdes/3-castanhos]: ");
@@ -33,7 +34,7 @@ int main() {
             maior = idade[i];
         }
 
-        i++;
+        
     }
     
     if(mulheres !=0){
