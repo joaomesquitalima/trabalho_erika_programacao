@@ -9,13 +9,13 @@ int main()
     scanf("%s",sigla);
     strlwr(sigla);
     
-    if(strcmp(sigla,"am")==0){
+    if(sigla[1]=='m'){
         printf("Amazonense");
-    }else if(strcmp(sigla,"rj")==0){
+    }else if(sigla[1] == 'j'){
         printf("Carioca");
-    }else if(strcmp(sigla,"pa")==0){
+    }else if(sigla[1] == 'a'){
         printf("Paraense");
-    }else if(strcmp(sigla,"ac")==0){
+    }else if(sigla[1] == 'c'){
         printf("Acreano");
     }
     
